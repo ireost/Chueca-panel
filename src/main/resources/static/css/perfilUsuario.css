@@ -1,0 +1,172 @@
+/* BARRA NAVEGACION */
+
+.container-fluid, #datos{
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgb(56,20,116);
+  background-color: rgba(56,20,116,0.1);
+  padding: 0;
+}
+
+i, h4{
+  color: rgb(56,20,116);
+}
+
+#lista a{
+  list-style-type: none;
+  color: black;
+  font-size: 14px;
+}
+
+div a img {
+  width: 100px;
+
+}
+/*----*/
+h3{
+  font-family: 'Baskervville', serif;
+}
+label{
+  font-family: 'Baskervville', serif;
+}
+input{
+  font-family: 'Baskervville', serif;
+}
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background:rgb(56, 20, 116, 0.5) !important;
+
+}
+.nav a{
+  font-family: 'Baskervville', serif;
+  text-decoration: none;
+  color: black;
+}
+
+
+.btn{
+  position: relative;
+  left:18%;
+  color:#343A40;
+  border: solid #343A40 1px;
+  font-family: 'Baskervville', serif;
+
+}
+
+/* .card-img{
+  height:100%;
+} */
+
+
+
+#fecha{
+  width: 100%;
+  border-radius:5px;
+
+}
+/*---*/
+/* Datos personales*/
+#formDtPersonales{
+  margin-left: 20%;
+  width: 100%;
+}
+#btnDatosPersonales{
+  justify-content: flex-start;
+}
+#btnDatosPersonales button{
+  background: rgb(56, 20, 116, 0.5);
+  color:white;
+  border:none;
+
+}
+/*----*/
+/*Direcciones */
+#formDirecciones{
+  margin-left: 20%;
+  width: 100%;
+}
+#buttonMas{
+  width:50px;
+  margin-top:20px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid #756446 1px;
+  box-shadow:#756446;
+  color:rgb(56,20,116);
+  border-color: rgb(56,20,116);
+}
+#btnDirecciones button{
+  background: rgb(56, 20, 116, 0.5);
+  color:white;
+  border:none;
+}
+/*----*/
+/*FAV*/
+#btnFav{
+  position:absolute;
+  border-radius:50%;
+  border:none;
+  margin-top:157%;
+  margin-left:65%;
+}
+#addCarro{
+  text-decoration:none;
+  font-size:14px;
+  margin-left:50%;
+  margin-bottom:10px;
+  /* font-family: 'Baskervville', serif; */
+  color: rgb(56, 20, 116, 0.5);
+}
+#v-pills-fav h5{
+  font-family: 'Baskervville', serif;
+  color: rgb(56, 20, 116, 0.5);
+
+}
+#v-pills-fav p{
+  font-family: 'Baskervville', serif;
+  font-size: 20px;
+  margin-left:10px;
+  
+}
+
+
+/*----*/
+/*Pedidos*/
+#v-pills-pedidos p{
+  font-family: 'Baskervville', serif;
+}
+/*----*/
+
+/*Tarjetas*/
+#v-pills-tarjeta{
+  width: 100%;
+  padding: 0 auto;
+}
+ #formTarjetas{
+  margin-left: 20%;
+  width: 100%;
+}
+#btnTarjetas button{
+  background: rgb(56, 20, 116, 0.5);
+  color:white;
+  border:none;
+}
+#v-pills-tarjeta p{
+  font-family: 'Baskervville', serif;
+}
+#v-pills-tarjeta .number{
+  font-size: 20px;
+}
+
+
+/*----*/
+/* FOOTER */
+ion-icon{
+  width: 30px;
+  height: 30px;
+}
+.color{
+  background-color: rgb(56,20,116) !important;
+  color: white !important;
+}

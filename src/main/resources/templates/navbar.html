@@ -1,0 +1,25 @@
+<div th:fragment="navbar">
+
+    <div class="navbar" id="navbarSupportedContent">
+      <ul class="navbar-nav nav-around mr-auto ml-5" style="font-size: 20px; width:max-content; color: rgb(56,20,116);">
+        <li class="nav-item d-b" active >
+          <a th:href="@{/}" class="nav-link">Inicio<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item d-b" active>
+          <a th:href="@{/home}" class="nav-link">Productos<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item d-b" active>
+          <a href="about.html" class="nav-link">Categorias <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item d-b" active>
+          <a href="faqs.html" class="nav-link">Usuarios<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item d-b" active>
+            <a href="productos.html" class="nav-link">Ventas <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item d-b" active>
+          <a href="registro.html" class="nav-link">Reportes <span class="sr-only"></span></a>
+        </li>
+      </ul>
+    </div>
+</div>

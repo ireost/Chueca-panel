@@ -1,0 +1,131 @@
+h2{
+  text-align: center;
+  font-family: 'Gupter', serif;;
+}
+.btn-light{
+  background: rgb(56, 20, 116, 0.5);
+  color:white;
+}
+
+
+#cardBody{
+  width: 100%;
+}
+
+#btnRegistro{
+  justify-content: flex-end;
+
+}
+#btnRegistro button{
+  /* padding: 10px; */
+  font-size:18px;
+}
+
+
+#provincia{
+  width: 100%;
+}
+#localidad{
+  width: 100%;
+  color:
+}
+#body{
+  margin-top: 40px;
+}
+label{
+  font-family: 'Gupter', serif;
+}
+input{
+  font-family: 'Gupter', serif;
+}
+button{
+  font-family: 'Gupter', serif;
+}
+
+
+
+
+/*checkbox*/
+
+#container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+#container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+#container:hover input ~ .checkmark {
+  background-color: #ccc;
+  border-radius: 5px;
+
+}
+
+/* When the checkbox is checked, add a blue background */
+#container input:checked ~ .checkmark {
+  background-color: rgba(56,20,116,0.3);
+  border-radius: 5px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+#container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+#container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*---*/
+div a{
+text-decoration: none;
+color: black;
+margin-left: 29%;
+font-family: 'Gupter', serif;
+}
+
+div p{
+  color: grey;
+}

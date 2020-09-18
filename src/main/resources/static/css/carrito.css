@@ -1,0 +1,15 @@
+.cantidad{
+  box-sizing: content-box;
+  /*text-align: center;*/
+}
+.descripcion{
+  box-sizing: border-box;
+  /*text-align: center;*/
+}
+.precio{
+  box-sizing: border-box;
+  /*text-align: center;*/
+}
+.total{
+  text-align: right;
+}

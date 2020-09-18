@@ -1,0 +1,39 @@
+<div th:fragment="productos" class="container">
+        <div class="card bg-light">
+            <div class="card-header">
+                <h3>Lista de productos</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                            <th>Precio</th>
+                            <th>Stock</th>      
+                            <th></th>                   
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="producto: ${productos}">
+                            <td th:text="${producto.id}"></td>
+                            <td th:text="${producto.nombre}"></td>
+                            <td th:text="${producto.descripcion}"></td>
+                            <td th:text="${producto.precio}"></td>
+                            <td th:text="${producto.stock}"></td>
+                            <td><a th:href="@{eliminar/} + ${producto.id}" th:text="'Eliminar'" class="btn btn-outline-danger"></a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">
+                                <a th:href="@{agregarProducto}" class="btn btn-outline-primary btn-block">Agregar nuevo producto</a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            </div>
+        </div>
+ 

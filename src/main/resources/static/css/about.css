@@ -1,0 +1,59 @@
+/* BARRA NAVEGACION */
+
+.container-fluid, #datos{
+  margin: 10px;   
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgb(56,20,116);
+  background-color: rgba(56,20,116,0.1);
+  padding: 0;
+}
+
+i, h4{
+  color: rgb(56,20,116);
+}
+
+#lista a{
+  list-style-type: none;
+  color: black;
+  font-size: 14px;
+}
+
+div a img {
+  width: 100px;
+
+}
+ion-icon{
+  width: 30px;
+  height: 30px;
+}
+/*color del borde del boton*/
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}
+
+
+/* CUERPO */
+
+h1 {
+  color: rgb(56,20,116);
+}
+
+div p {
+  text-align: justify;
+  padding: 10px;
+}
+
+div p.bienvenido{
+  padding-top: 70px;
+  margin-bottom: 10px;
+}
+
+
+div img {
+  border-radius: 50px;
+}
+
+#carouselExampleSlidesOnly img{
+  height: 650px;
+}

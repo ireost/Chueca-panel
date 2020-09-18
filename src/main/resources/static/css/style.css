@@ -1,0 +1,98 @@
+/* CUERPO */
+body{
+  font-family: 'Gupter', serif;
+  margin: 0em!important;
+  padding: 0em!important;
+}
+
+ul li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+section img{
+  width: 100%;
+  height: 100%;
+}
+/* SECCION PRINCIPAL */
+.seccionPrincipal{
+  background-image: url(../img/fondoPrincipal.jpg);
+  background-color: #cccccc;
+  background-position: center center;
+
+  /* Para que la imagen de fondo no se repita */
+
+  background-repeat: no-repeat;
+
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+  background-attachment: fixed;
+
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+  background-size: cover;
+  height: 1200px;
+  
+}
+.titulo-temporada{
+  font-size: 1.5em;
+  color: antiquewhite;  
+  font-family: 'Gupter', serif;
+}
+#carruselTemporada, #carruselDescuentos{
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+/* DESCUENTOS */
+/* .seccionDescuentos{
+  background-color: floralwhite;
+  height: 18em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.titulo-descuentos{
+  font-size: 1.5em;
+  color:  rgb(56,20,116);  
+  float: left;
+  font-family: 'Gupter', serif;
+} */
+
+/* RESPNSIVE */
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+
+/* CONTACTO */
+
+#contacto{
+  font-family: 'Gupter', serif;
+  font-size: 0.8em;
+  border-top: 3px solid rgb(56,20,116);
+  height: 200px;
+  
+}
+
+.titulo-contacto{
+  padding-top: 1em;
+  font-size: 1.6em;
+  background-color: lightslategrey;
+}
+
+.color-boton{
+  background-color: rgb(56,20,116) !important;
+  color: white !important;
+  padding-bottom: 1em;
+}
+
+
